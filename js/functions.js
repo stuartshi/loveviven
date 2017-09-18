@@ -110,7 +110,7 @@ function timeElapse(c) {
 }
 function showMessages() {
     adjustWordsPosition();
-    $("#messages").fadeIn(5000, function() {
+    $("#messages").fadeIn(10, function() {
         showLoveU()
     })
 }
