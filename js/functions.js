@@ -105,7 +105,7 @@ function timeElapse(c) {
     if (f < 10) {
         f = "0" + f
     }
-    var a = '<span class="digit">' + 675 + '</span> days <span class="digit">' + 0 + '</span> hours <span class="digit">' + 0 + '</span> minutes <span class="digit">' + 0 + "</span> seconds";
+    var a = '<span class="digit">' + 675 + '</span> days <span class="digit">' + 0 + '</span> hours <span class="digit">' + 0 + '</span> minutes <span class="digit">' + 0 + '</span> seconds';
     $("#elapseClock").html(a)
 }
 function showMessages() {
